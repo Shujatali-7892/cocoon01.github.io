@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="zxx">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>DayCare </title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- css include -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- body wrap start -->
+    <div class="body_wrap">
+
+        <!-- preloder start -->
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_four"></div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- preloder end -->
+
+        <!-- back to top start -->
+        <div class="progress-wrap">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+        <!-- back to top end -->
+
+          <!-- header start -->
+          <header class="header-area">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="left">
+                                <li><span><i class="far fa-clock"></i></span> 9:30am - 6:30pm Mon - Sun</li>
+                                <li><span><i class="far fa-phone"></i></span>+92 301 1022777</li>
+                                <li><span><i class="far fa-map-marker-alt"></i></span>
+                                    Dhoraji Colony, Sindh, Pakistan
+                                </li>
+                            </ul>
+                            <ul class="right">
+                                <li><a href="https://www.facebook.com/CocoonSafeHeaven"><i
+                                            class="fab fa-facebook"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom-area" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-6">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 d-none d-lg-block">
+                            <div class="main-menu-wrap">
+                                <nav id="mobile-menu" class="main-menu">
+                                    <ul class="main-menu-list ul_li">
+                                        <li class="mytab menu-item-has-children"><a href="#!">Our taps</a>
+                                            <ul class="submenu">
+                                                <li class="our-tabs">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <ul class="nav nav-pills nav-pills d-flex d-md-block border-3"
+                                                                id="pills-tab" role="tablist">
+                                                                <li class="nav-item" role="presentation">
+                                                                    <button
+                                                                        class="nav-link text-primary fw-semibold active position-relative"
+                                                                        id="pills-About-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#pills-About" type="button"
+                                                                        role="tab" aria-controls="pills-About"
+                                                                        aria-selected="true">About us </button>
+                                                                </li>
+                                                                <li class="nav-item" role="presentation">
+                                                                    <button
+                                                                        class="nav-link text-primary fw-semibold position-relative"
+                                                                        id="pills-Program-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#pills-Program" type="button"
+                                                                        role="tab" aria-controls="pills-Program"
+                                                                        aria-selected="false">  Our Program  
+                                                                    
+                                                                    </button>
+                                                                </li>
+                                                                <li class="nav-item" role="presentation">
+                                                                    <button
+                                                                        class="nav-link text-primary fw-semibold position-relative"
+                                                                        id="pills-Admission-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#pills-Admission" type="button"
+                                                                        role="tab" aria-controls="pills-Admission"
+                                                                        aria-selected="false">Admission Procedure</button>
+                                                                </li>
+                                                                <li class="nav-item" role="presentation">
+                                                                    <button
+                                                                        class="nav-link text-primary fw-semibold position-relative"
+                                                                        id="pills-Team-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#pills-Team" type="button"
+                                                                        role="tab" aria-controls="pills-Team"
+                                                                        aria-selected="false">Our Team</button>
+                                                                </li>
+                                                                <li class="nav-item" role="presentation">
+                                                                    <button
+                                                                        class="nav-link text-primary fw-semibold position-relative"
+                                                                        id="pills-Events-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#pills-Events" type="button"
+                                                                        role="tab" aria-controls="pills-Events"
+                                                                        aria-selected="false"> Events </button>
+                                                                </li>
+                                                            </ul>
+                                                            </div>
+                                                            <div class="col-md-9 ms-auto">
+                                                                <div class="tab-content"
+                                                                id="pills-tabContent">
+                                                                <div class="tab-pane fade show active" id="pills-About"
+                                                                    role="tabpanel" aria-labelledby="pills-About-tab"> 
+                                                                     
+                                                                     
+                                                                    <section class="tab-area mb-5 pb-180">
+                                                                        <div class="container">
+                                                                            <div class="row">
+                                                                                <div class="col-12">
+                                                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                                                        <li class="nav-item" role="presentation">
+                                                                                            <button class="nav-link Teachtab active" id="Vision-tab" data-bs-toggle="tab"
+                                                                                                data-bs-target="#Vision" type="button" role="tab" aria-controls="Vision"
+                                                                                                aria-selected="true"> School Vision</button>
+                                                                                        </li>
+                                                                                        <li class="nav-item" role="presentation">
+                                                                                            <button class="nav-link" id="Mission-tab" data-bs-toggle="tab"
+                                                                                                data-bs-target="#Mission" type="button" role="tab" aria-controls="Mission"
+                                                                                                aria-selected="false"> School Mission</button>
+                                                                                        </li>
+                                                                                        <li class="nav-item" role="presentation">
+                                                                                            <button class="nav-link" id="philosophy-tab" data-bs-toggle="tab"
+                                                                                                data-bs-target="#philosophy" type="button" role="tab"
+                                                                                                aria-controls="philosophy" aria-selected="false">  School philosophy</button>
+                                                                                        </li>
+                                                                                        <li class="nav-item" role="presentation">
+                                                                                            <button class="nav-link" id="Spaces-tab" data-bs-toggle="tab"
+                                                                                                data-bs-target="#Spaces" type="button" role="tab"
+                                                                                                aria-controls="Spaces" aria-selected="false"> Spaces </button>
+                                                                                        </li>
+                                                                                         
+                                                        
+                                                                                    </ul>
+                                                                                    <div class="tab-content" id="myTabContent">
+                                                                                        <div class="tab-pane fade show active" id="Vision" role="tabpanel"
+                                                                                            aria-labelledby="Vision-tab">
+                                                                                            <div class="row">
+                                                                                                
+                                                                                                <div class="col-lg-12 my-auto">
+                                                                                                    <div class="right-div ">
+                                                                                                        <h3> School Vision:-</h3>
+                                                                                                        <p>
+                                                                                                            “Fostering a nurturing environment where curiosity is cultivated and love for learning is ignited.
+                                                                                                             Our vision for the early years is to inspire a foundation of creativity,
+                                                                                                             resilience and joy, preparing each child for a life long journey of discovery and growth”.
+                                                                                                        </p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-4 col-sm-5 mx-auto text-center">
+                                                                                                    <a href="about.html" class="box-btn  my-auto"> Read More</a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="tab-pane fade" id="Mission" role="tabpanel" aria-labelledby="Mission-tab">
+                                                                                            <div class="row">
+                                                        
+                                                                                                <div class="col-lg-12 my-auto">
+                                                                                                    <div class="right-div ">
+                                                                                                        <h3> School Mission:-</h3>
+                                                                                                        <p>
+                                                                                                            “Empowering children through education that nurtures   independence, creativity and a lifelong love for learning.
+                                                                                                             Our Mission is to foster sense of community, respect for self and others and a foundation for a purposeful and meaningful life”.
+                                                                                                        </p>
+
+                                                                                                        
+                                                                                                    </div>
+
+                                                                                                </div>
+                                                                                                <div class="col-md-4 col-sm-5 mx-auto text-center">
+                                                                                                    <a href="about.html" class="box-btn  my-auto"> Read More</a>
+                                                                                                </div>
+                                                                                                
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="tab-pane fade" id="philosophy" role="tabpanel"
+                                                                                            aria-labelledby="philosophy-tab">
+                                                        
+                                                                                            <div class="row">
+                                                                                                 
+                                                                                                <div class="col-lg-12 my-auto">
+                                                                                                    <div class="right-div ">
+                                                                                                        <h3> School philosophy:-</h3>
+                                                                                                        <p>
+                                                                                                            At Cocoon Academy, we embrace a child-centric philosophy,
+                                                                                                             where each child is recognized as a unique and capable individual.
+                                                                                                        </p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-4 col-sm-5 mx-auto text-center">
+                                                                                                    <a href="about.html" class="box-btn  my-auto"> Read More</a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="tab-pane fade" id="Spaces" role="tabpanel"
+                                                                                            aria-labelledby="Spaces-tab">
+                                                                                            <div class="row">
+                                                                                                <div class="col-lg-12 my-auto">
+                                                                                                    <div class="right-div ">
+                                                                                                        <h3> Spaces:-</h3>
+                                                                                                        <p>
+                                                                                                             
+                                                                                                        </p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-4 col-sm-5 mx-auto text-center">
+                                                                                                    <a href="about.html" class="box-btn  my-auto"> Read More</a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div> 
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="pills-Program"
+                                                                    role="tabpanel" aria-labelledby="pills-Program-tab">
+                                                                    <h2>   Our Program </h2>
+                                                                     <ul>
+                                                                        <li> Montessori.</li>
+                                                                        <li>Academic Vision.</li>
+                                                                        <li> DayCare.</li>
+                                                                        <li>Well-Trained Staff.</li>
+                                                                        <li>Fully Equipped Facilities.</li>
+                                                                        <li> Transparent Communication.</li>
+                                                                        <li>Daily Photo Updates.</li>
+                                                                        <li>Parent-Provided Accessories.</li>
+                                                                     </ul>     
+                                                                    <div class="row">
+                                                                        <div class="col-md-4 col-sm-5 mx-auto text-center">
+                                                                            <a href="Montessori.html" class="box-btn  my-auto"> Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="pills-Admission"
+                                                                    role="tabpanel" aria-labelledby="pills-Admission-tab">
+                                                                    <h2> Admission Procedure</h2>
+                                                                    <ul>
+                                                                        <li>Montessori.</li>
+                                                                        <li>Daycare.</li>
+                                                                    </ul>
+                                                                    <div class="row">
+                                                                        <div class="col-md-4 col-sm-5 mx-auto text-center">
+                                                                            <a href="AdmissionProcess.html" class="box-btn  my-auto"> Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="pills-Team"
+                                                                role="tabpanel" aria-labelledby="pills-Team-tab">
+                                                                <h2>Our Team</h2> 
+                                                                <ul>
+                                                                    <li>Management.</li>
+                                                                </ul>
+                                                                <div class="row">
+                                                                    <div class="col-md-4 col-sm-5 mx-auto text-center">
+                                                                        <a href="teachers.html" class="box-btn  my-auto"> Read More</a>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="tab-pane fade" id="pills-Events"
+                                                            role="tabpanel" aria-labelledby="pills-Events-tab">
+                                                            <h2>Events</h2>
+                                                            
+                                                        </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                        
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class=" "><a href="index.html">Home</a></li>
+                                        <li class="menu-item-has-children"><a href="#!">Our Programme</a>
+                                            <ul class="submenu">
+                                                <li class=" "><a href="Montessori.html">Montessori</a></li>  
+                                                    <li class="active"><a href="DayCare.html"> DayCare</a></li>  
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="menu-item-has-children"><a href="#!">Admission</a>
+                                            <ul class="submenu">
+                                                <li><a href="AdmissionProcess.html">Admission Process</a></li>
+                                                <li class=" "><a href="ApplyAdmission.html">Apply For Admission</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="#!">Our Team</a>
+                                            <ul class="submenu">
+                                                <li><a href="Management.html">Management</a></li> 
+                                            </ul>
+                                        </li>
+                                         
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="header-right">
+                                <div class="header-btn">
+                                    <a class="thm-btn" href="./ApplyAdmission.html">Admissaion Now</a>
+                                </div>
+                                <div class="side-mobile-menu">
+                                    <button class="side-info-close"><i class="far fa-times"></i></button>
+                                    <div class="mobile-menu"></div>
+                                </div>
+                                <div class="side-menu-icon d-lg-none">
+                                    <button class="side-toggle"><i class="far fa-bars"></i></button>
+                                </div>
+                                <div class="offcanvas-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <main> 
+                        <!-- page-title-area -->
+                        <section class="pagetitlearea pt-110 pb-80 section-notch z-indx">
+            <div class="page-title-area  pt-170 pb-170 h-100"  >
+                
+                 
+            </div>
+            </section>
+                            <!-- page-title-area --> 
+
+            <!-- feature area start -->
+            <section class="feature-area pt-110 pb-80">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="section-title text-center mb-60">
+                            <h1 class="title"> DayCare</h1>
+                            <h5>Four years programe which includes </h5>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="feature-item text-center mb-30">
+                                 
+                                <div class="feature-content">
+                                    <div class="feature-title">
+                                        <h3>Age group </h3>
+                                    </div>
+                                    <p>
+                                        <b>
+                                        <span class="text-danger">3 months </span>
+                                        &nbsp; <span>to</span> &nbsp;
+                                        <span class="text-success">10 years</span>
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="feature-item text-center mb-30">
+                                 
+                                <div class="feature-content">
+                                    <div class="feature-title feature-title-2">
+                                        <h3>Timings</h3>
+                                    </div>
+                                    <p>
+                                        <b>
+                                        <span class="text-danger">8 am</span>
+                                        &nbsp; <span>-</span> &nbsp;
+                                        <span class="text-success">6 pm</span>
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="feature-item text-center mb-30">
+                                 
+                                <div class="feature-content">
+                                    <div class="feature-title feature-title-3">
+                                        <h3>Packages we offer :</h3>
+                                    </div>
+                                    <p>
+                                        <b>
+                                        <span class="text-danger"> Full Day</span>
+                                        &nbsp; <span>-</span> &nbsp;
+                                        <span class="text-success"> Half Day</span>
+                                        &nbsp; <span>-</span> &nbsp;
+                                        <span class="text-danger">  After school</span>
+                                        &nbsp; <span>-</span> &nbsp;
+                                        <span class="text-success"> Hourly</span>
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                           <button class="btn thm-btn thm-btn-2">Apply For Admission</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- feature area end -->
+
+                    <!-- ur approach area start -->
+                    <section class="ur-approach">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10  text-center mx-auto" >
+                                    <div class="about-content pt-100 pb-100">
+                                        <div class="section-title section-title-white mb-30">
+                                            <h1 class="title"> Our Daycare Facility </h1>
+                                            <p>
+                                                Our daycare facility is dedicated to providing a secure environment for your children, where hygiene, care, warmth, and protection are our utmost priorities.
+                                                Here are key points highlighting our commitment to your child's well-being:
+                                               
+                                            </p>
+                                        </div>
+                                         
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </section>
+                    <!-- a ur approach area end -->
+                        <!-- approach area start   -->
+                        <section class="approach-area h-50">
+                            <div class="container-fluid my-auto">
+                              <div class="row my-auto">
+                                <div class="col-12 text-center my-4">
+                                    <h1>
+                                        Academic Vision
+                                    </h1>
+                                </div>
+                                <div class="col-12">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link  active" id="Staff-tab" data-bs-toggle="tab" data-bs-target="#Staff" type="button" role="tab" aria-controls="Staff" aria-selected="true"> Staff</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="Facilities-tab" data-bs-toggle="tab" data-bs-target="#Facilities" type="button" role="tab" aria-controls="Facilities" aria-selected="false"> Facilities</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="Guidance-tab" data-bs-toggle="tab" data-bs-target="#Guidance" type="button" role="tab" aria-controls="Guidance" aria-selected="false">Parental Guidance </button>
+                                        </li>
+                                        
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="Communication-tab" data-bs-toggle="tab" data-bs-target="#Communication" type="button" role="tab" aria-controls="Communication" aria-selected="false"> Communication</button>
+                                          </li>
+                                          <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="Updates-tab" data-bs-toggle="tab" data-bs-target="#Updates" type="button" role="tab" aria-controls="Updates" aria-selected="false">   Updates</button>
+                                          </li>
+                                          <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="Accessories-tab" data-bs-toggle="tab" data-bs-target="#Accessories" type="button" role="tab" aria-controls="Accessories" aria-selected="false"> Accessories</button>
+                                          </li>
+                                          
+                                      </ul>
+                                      <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="Staff" role="tabpanel" aria-labelledby="Staff-tab">
+                                            <div class="row">
+                                                 
+                                                <div class="col-lg-5 mx-auto text-center">
+                                                    <div class="right-div ">
+                                                        <h3> Well-Trained Staff:</h3>
+                                                        <p> Our daycare is staffed with highly trained professionals who prioritize the safety and well-being of your children.
+
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="Facilities" role="tabpanel" aria-labelledby="Facilities-tab">
+                                            <div class="row">
+                                             
+                                                <div class="col-lg-5 mx-auto text-center">
+                                                    <div class="right-div ">
+                                                        <h3> Fully Equipped Facilities:</h3>
+                                                        <p> 
+                                                            Our facilities are thoughtfully equipped to meet the diverse needs of your child, ensuring a comfortable and enriching environment.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                              
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="Guidance" role="tabpanel" aria-labelledby="Guidance-tab">
+                                             
+                                            <div class="row">
+                                                
+                                                <div class="col-lg-5 mx-auto text-center">
+                                                    <div class="right-div ">
+                                                        <h3> Parental Guidance on Nutrition</h3>
+                                                        <p> While parents are required to provide food for their children, 
+                                                            we take the responsibility to feed them according to your guidance, ensuring their nutritional needs are met     
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                        <div class="tab-pane fade" id="Communication" role="tabpanel" aria-labelledby="Communication-tab">
+                                            <div class="row">
+                                             
+                                                <div class="col-lg-5 mx-auto text-center">
+                                                    <div class="right-div ">
+                                                        <h3> 
+                                                            Transparent Communication:</h3>
+                                                        <p> 
+                                                            Inclusivity is at the heart of our curriculum, promoting diversity, equity, and respect for all students.
+                                                            Our inclusive approach ensures that every student’s unique ability and background are celebrated and supported, creating a welcoming and supportive learning community.
+                                                            By embracing inclusivity in our curriculum, we empower students to become compassionate leaders who value diversity and strive for social justice.
+                                                            
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="Updates" role="tabpanel" aria-labelledby="Updates-tab">
+                                            <div class="row">
+                                                
+                                                <div class="col-lg-5 mx-auto text-center">
+                                                    <div class="right-div ">
+                                                        <h3> Daily Photo Updates:</h3>
+                                                        <p>  For your peace of mind, we will upload three pictures of your child to the group every day, allowing you to witness their engaging experiences.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="Accessories" role="tabpanel" aria-labelledby="Accessories-tab">
+                                            <div class="row">
+                                             
+                                                <div class="col-lg-5 mx-auto text-center">
+                                                    <div class="right-div ">
+                                                        <h3> Parent-Provided Accessories:</h3>
+                                                        <p> 
+                                                            Necessary items such as diapers, cerelac, food crockery, and cutlery will be
+                                                             provided by parents. We offer separate lockers for each child, ensuring personal belongings are secure.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                 
+                                            </div>
+                                        </div> 
+                                         
+                                      </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-8 col-md-10  col-12 mx-auto text-center">
+                                    <h6>
+                                        Our commitment is to provide a safe haven for your little ones, and we look forward to fostering a positive and supportive relationship with both you and your child.
+                                    </h6>
+                                </div>
+                              </div>
+                            </div>
+                        </section> 
+
+                        <!-- approach area  end --> 
+                        <section class="feature-area pt-110 mb-50   pb-80 admi-div  section-notch">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <div class="section-title text-center mb-60">
+                                            <h1 class="title">Take The Next Step</h1>
+                                            <h4>Apply For Admission</h4>
+                                            <p>
+                                                If you would like to enrol your child at Cocoon, please fill out your details.
+                                            </p>
+                                            <div class="text-center">
+                                                <a href="./ApplyAdmission.html" class="btn thm-btn thm-btn-2">Apply Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+            
+                            </div>
+                        </section>
+ 
+        </main>
+
+              <!-- footer start -->
+              <footer>
+                <div class="footer-area" data-background="assets/img/bg/footer-bg.jpg">
+                    <div class="footer-top">
+                        <div class="container">
+                            <div class="footer-top-wrapper">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-4">
+                                        <div class="footer-top-single">
+                                            <div class="footer-top-icon">
+                                                <img src="assets/img/icon/ft01.png" alt="">
+                                            </div>
+                                            <div class="footer-top-content">
+                                                <h5>Give us a Call</h5>
+                                                <span>+923011022777</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4">
+                                        <div class="footer-top-single">
+                                            <div class="footer-top-icon">
+                                                <img src="assets/img/icon/ft02.png" alt="">
+                                            </div>
+                                            <div class="footer-top-content">
+                                                <h5>Send us a Message</h5>
+                                                <span>info@cocoonacademy.net  </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4">
+                                        <div class="footer-top-single footer-top-single-2">
+                                            
+                                            <div class="footer-top-icon">
+                                                <img src="assets/img/icon/ft03.png" alt="">
+                                            </div>
+                                            <div class="footer-top-content">
+                                                <h5>Visit our Location</h5>
+                                                <span>46, C.P. & Berar Society Cp & Berar Chs, Karachi City, Sindh</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom pt-100 pb-60">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="footer-widget mb-40">
+                                        <h3>About  </h3>
+                                        <p>Monotne deplos copertve chanva andng crorate Qhanin Unique Qnderwhe Premum Convere With Uheng Mutmed Nquel Undehee Mandnge theme Qhann Unqu Qndewhe Premum Converenc With Aheing Mutmeda Nquel Undehele</p>
+                                        <div class="footer-social">
+                                            <h4>Follow us :</h4>
+                                            <a href="#!"><i class="fab fa-twitter"></i></a>
+                                            <a href="#!"><i class="fas fa-rss"></i></a>
+                                            <a href="#!"><i class="fab fa-dribbble"></i></a>
+                                            <a href="#!"><i class="fab fa-behance"></i></a>
+                                            <a href="#!"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="footer-widget mb-40">
+                                        <h3>Recent Blog Posts</h3>
+                                        <div class="footer-post">
+                                            <div class="fp-single">
+                                                <div class="thumb">
+                                                    <a href="blog-details.html"><img src="assets/img/blog/footer-post/footer-post01.jpg" alt=""></a>
+                                                </div>
+                                                <div class="content">
+                                                     <span><i class="far fa-calendar-alt"></i>  24th March 2021</span>
+                                                    <h5><a href="blog-details.html">Why children need a Healthy Environment</a></h5>
+                                                </div>
+                                            </div>
+                                            <div class="fp-single">
+                                                <div class="thumb">
+                                                    <a href="blog-details.html"><img src="assets/img/blog/footer-post/footer-post02.jpg" alt=""></a>
+                                                </div>
+                                                <div class="content">
+                                                     <span><i class="far fa-calendar-alt"></i> 24th March 2022</span>
+                                                    <h5><a href="blog-details.html">Planting Seeds in the Hearts of Preschoolers</a></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="footer-widget mb-40">
+                                        <h3>Newsletter Subscription</h3>
+                                        <p>Enter your email and get latest updates and offers subscribe us</p>
+                                        <form action="#!">
+                                            <input type="text" placeholder="Enter your email">
+                                            <button class="thm-btn">Subscribe Now!</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area pt-30 pb-30">
+                    <div class="container">
+                        <div class="row flex-row-reverse align-items-center">
+                             
+                            <div class="col-12 text-center">
+                                <div class="copyright-text">
+                                    <p> <small>	&copy;2024 </small> &nbsp; <strong> Cocoon-A Safe Heaven </strong>  <small>Designed by</small> &nbsp; <a href="#" target="_blank"><b>S.</b>Creation</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer end -->
+
+        
+    </div>
+    <!-- body wrap end -->
+
+    <!-- jquery include -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/jqueryui.js"></script>
+    <script src="assets/js/touchspin.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/backToTop.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // JavaScript code for changing background color on click
+        const navItems = document.querySelectorAll('.nav-item');
+
+        navItems.forEach(item => {
+            item.addEventListener('click', function () {
+                // Remove active class from all items
+                navItems.forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // Add active class to the clicked item
+                this.classList.add('active');
+            });
+        });
+    </script>
+ 
+</body> 
+</html>

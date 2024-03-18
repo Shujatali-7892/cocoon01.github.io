@@ -6577,8 +6577,12 @@ transition: transform 0.3s ease;
     letter-spacing: 1px;
     box-shadow: 0px 4px 7px 0px rgba(38, 204, 133, 0.36);
 }
-
-
+.index-div .carousel-caption .slide-title h1{
+	color: white !important;
+}
+.index-div .carousel-caption { 
+    bottom: 20% !important; 
+}
 
   @media (min-width: 991px){
   .main-menu ul .mytab  ul.submenu {

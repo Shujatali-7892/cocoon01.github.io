@@ -423,6 +423,30 @@
     .blog-item .blog-content .blog-meta span {
         padding-right: 0;
     }
+    .index-div .carousel-caption .thm-btn { 
+        font-size: 6px !important;
+        padding: 7px 7px !important; 
+    }
+    .index-div .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 0 !important;
+        left: 15%;
+        padding-top: 0;
+        padding-bottom: 0;
+        color: #fff;
+        text-align: center;
+    }
+    .index-div .carousel-caption .slide-title h1 {
+        color: white !important;
+        font-size: 18px;
+    }
+    .index-div .carousel-caption  .slider-btn a {
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+       
+    }
 }
  
 /* Large Mobile :480px. */

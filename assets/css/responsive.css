@@ -143,6 +143,9 @@
  
 /* MD Device :768px. */
 @media (max-width: 991px) {
+    .mytab{
+        display: none !important;
+    }
     .admission-from-inner{
         padding: 10px !important;
     }
@@ -239,6 +242,9 @@
  
 /* SM Device :320px. */
 @media (max-width: 767px) {
+    .mytab{
+        display: none !important;
+    }
     .admission-from-inner{
         padding: 10px !important;
     }

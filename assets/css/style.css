@@ -6767,8 +6767,28 @@ transition: transform 0.3s ease;
 		.nav-pills-custom .nav-link.active::before {
 			opacity: 1;
 		}
-		
-
+		/* .my-pills{
+			box-shadow: 17px 0px 25px 0px rgb(0 0 0 / 5%);
+			height: 100vh;
+			overflow-y: auto;
+			overflow-x: hidden;
+		} */
+	 ::-webkit-scrollbar {
+			width: 0.5em;
+			height: 0.5em;
+		  }
+		   
+		   ::-webkit-scrollbar-track {
+			box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+		  }
+		   
+		 ::-webkit-scrollbar-thumb {
+			/* background-color: darkgrey; */
+			background-color: #ff9c00;
+    background-image: linear-gradient(145deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
+ 
+			outline: 1px solid slategrey;
+		  }
   @media (min-width: 991px){
   .main-menu ul .mytab  ul.submenu {
     position: absolute;

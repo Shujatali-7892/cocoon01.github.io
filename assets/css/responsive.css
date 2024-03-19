@@ -36,11 +36,17 @@
         margin-right: 33px;
     }
 }
+@media (min-width: 992px) {
+    .img-div {
+        width: 300px;
+        height: 150px;
+        margin-bottom:10px;
+    }
 
-
-
+}
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+     
     .header-top .left li {
         margin-right: 10px;
         padding-left: 10px;
@@ -242,6 +248,7 @@
  
 /* SM Device :320px. */
 @media (max-width: 767px) {
+    
     .mytab{
         display: none !important;
     }

@@ -248,7 +248,9 @@
  
 /* SM Device :320px. */
 @media (max-width: 767px) {
-    
+    .pagetitlearea {  
+        background-size: contain; 
+    }
     .mytab{
         display: none !important;
     }

@@ -294,6 +294,7 @@ label {
 /* 2. header */
 .header-top {
 	background-color: #23cc88;
+	display: none !important;
 }
 
 .header-bottom-area .header-right {

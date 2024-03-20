@@ -535,8 +535,75 @@
         <!-- header end -->
 
         <main class="event">
+
+
+            <section class="section-notch index-div">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators d-none">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active  slide-overlay">
+                            <img src="./assets/img/slider/index-2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption   d-md-block">
+                                <div  class="slide-title">
+                                    <h1>Cocoon Events</h1>
+                                </div>
+                                
+                            </div>
+                          </div>
+                      <div class="carousel-item slide-overlay">
+                        <img src="./assets/img/slider/event-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption   d-md-block">
+                            <div  class="slide-title">
+                                <h1>Cocoon Events</h1>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <div class="carousel-item slide-overlay">
+                        <img src="./assets/img/slider/event2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption   d-md-block">
+                            <div  class="slide-title">
+                                <h1>Cocoon Events</h1>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <div class="carousel-item slide-overlay">
+                        <img src="./assets/img/slider/index-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption   d-md-block">
+                            <div  class="slide-title">
+                                <h1>Cocoon Events</h1>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <div class="carousel-item slide-overlay">
+                        
+                        <img src="./assets/img/slider/index-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption    d-md-block">
+                            <div  class="slide-title">
+                                <h1>Cocoon Events</h1>
+                            </div>
+                           
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
             <!-- page title start -->
-            <div class="page-title-area section-notch pt-170 pb-170 z-indx"
+            <div class="page-title-area section-notch pt-170 pb-170 z-indx d-none"
                 data-background="./assets/img/slider/index-2.jpg">
                 <div class="banner-overlay"></div>
                 <div class="container">
@@ -575,7 +642,11 @@
 
                             <div class="nav flex-column my-pills nav-pills me-3 nav-pills-custom" id="v-pills-tab" role="tablist"
                                 aria-orientation="vertical">
-                                <button class="nav-link active" id="v-pills-Children-tab" data-bs-toggle="pill"
+                                <button class="nav-link active" id="v-pills-All-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-All" type="button" role="tab"
+                                aria-controls="v-pills-All" aria-selected="true">All  </button>
+
+                                <button class="nav-link" id="v-pills-Children-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-Children" type="button" role="tab"
                                     aria-controls="v-pills-Children" aria-selected="true">Children Day</button>
                                 <button class="nav-link" id="v-pills-Animal-tab" data-bs-toggle="pill"
@@ -601,22 +672,16 @@
                         <div class="col-md-9">
 
                             <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade shadow rounded bg-white show active p-md-3" id="v-pills-Children"
-                                    role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                <div class="tab-pane fade shadow rounded bg-white show active p-md-3" id="v-pills-All"
+                                    role="tabpanel" aria-labelledby="v-pills-All-tab">
                                     <section class="section-bg-one  section-notch pt-40 pb-40">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-10  text-center mx-auto">
                                                     <div class="about-content  ">
                                                         <div class="section-title section-title-white mb-30">
-                                                            <h2 class="title">Children Day</h2>
-                                                            <p>
-                                                                Every child is a gift to the world,a source of hope and
-                                                                a promise for a brighter future. Let's create a world
-                                                                where
-                                                                children can grow, learn and play in a safe and
-                                                                nurturing environment.
-                                                            </p>
+                                                            <h2 class="title">Events</h2>
+                                                             
                                                         </div>
 
                                                     </div>
@@ -624,24 +689,105 @@
 
                                             </div>
                                         </div>
-
-
+                                      
+                                               <div class="allimage">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                                                     <img src="./assets/img/childrenday/1.jpg"
                                                         class="w-100 shadow-1-strong rounded mb-4" alt="#" />
 
-                                                    <img src="./assets/img/childrenday/2.jpg"
+                                                        <img src="./assets/img/pakistan/4.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/pakistan/3.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+
+                                                    <img src="./assets/img/pakistan/6.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div> 
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                   
+                                                        <img src="./assets/img/pakistan/5.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+
+                                                        <img src="./assets/img/childrenday/2.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                        <img src="./assets/img/childrenday/3.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                  
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/Milad/1.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/Milad/3.jpg"
                                                         class="w-100 shadow-1-strong rounded mb-4" alt="#" />
                                                 </div>
 
                                                 <div class="col-lg-4 mb-4 mb-lg-0">
-                                                    <img src="./assets/img/childrenday/3.jpg"
+                                                    <img src="./assets/img/Milad/4.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/Milad/2.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/Milad/5.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/Milad/6.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/teachersday/1.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/teachersday/2.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/teachersday/3.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/teachersday/4.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/teachersday/5.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/teachersday/6.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+
+                                               
+                                                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                                    
+
+                                                    <img src="./assets/img/pakistan/2.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/pakistan/1.jpg"
                                                         class="w-100 shadow-1-strong rounded mb-4" alt="#" />
 
                                                     <img src="./assets/img/childrenday/4.jpg"
-                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                    class="w-100 shadow-1-strong rounded mb-4" alt="#" />
                                                 </div>
 
                                                 <div class="col-lg-4 mb-4 mb-lg-0">
@@ -652,10 +798,116 @@
                                                         class="w-100 shadow-1-strong rounded mb-4" alt="#" />
                                                 </div>
                                             </div>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/Animal/01.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/Animal/02.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/Animal/11.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/Animal/3.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/Animal/2.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/Animal/12.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/polo/1.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/polo/4.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/polo/3.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/polo/2.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+
+                                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                                    <img src="./assets/img/polo/5.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                    <img src="./assets/img/polo/6.jpg"
+                                                        class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                                </div>
+                                            </div>
                                             <!-- Gallery -->
                                         </div>
+                                    </div>
                                     </section>
                                 </div>
+                                <div class="tab-pane fade shadow rounded bg-white p-md-3" id="v-pills-Children"
+                                role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                <section class="section-bg-one  section-notch pt-40 pb-40">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-10  text-center mx-auto">
+                                                <div class="about-content  ">
+                                                    <div class="section-title section-title-white mb-30">
+                                                        <h2 class="title">Children Day</h2>
+                                                        <p>
+                                                            Every child is a gift to the world,a source of hope and
+                                                            a promise for a brighter future. Let's create a world
+                                                            where
+                                                            children can grow, learn and play in a safe and
+                                                            nurturing environment.
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                                <img src="./assets/img/childrenday/1.jpg"
+                                                    class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                <img src="./assets/img/childrenday/2.jpg"
+                                                    class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                            </div>
+
+                                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                                <img src="./assets/img/childrenday/3.jpg"
+                                                    class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                <img src="./assets/img/childrenday/4.jpg"
+                                                    class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                            </div>
+
+                                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                                <img src="./assets/img/childrenday/5.jpg"
+                                                    class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+
+                                                <img src="./assets/img/childrenday/6.jpg"
+                                                    class="w-100 shadow-1-strong rounded mb-4" alt="#" />
+                                            </div>
+                                        </div>
+                                        <!-- Gallery -->
+                                    </div>
+                                </section>
+                            </div>
                                 <div class="tab-pane fade shadow rounded bg-white p-md-3" id="v-pills-Animal"
                                     role="tabpanel" aria-labelledby="v-pills-Animal-tab">
 
@@ -752,8 +1004,7 @@
 
                                                     <img src="./assets/img/pakistan/6.jpg"
                                                         class="w-100 shadow-1-strong rounded mb-4" alt="#" />
-                                                </div>
-
+                                                </div> 
                                                 <div class="col-lg-4 mb-4 mb-lg-0">
                                                     <img src="./assets/img/pakistan/3.jpg"
                                                         class="w-100 shadow-1-strong rounded mb-4" alt="#" />

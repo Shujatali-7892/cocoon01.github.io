@@ -6335,6 +6335,16 @@ transition: transform 0.3s ease;
 	z-index: -1;
 }
 
+.event .index-div .carousel-caption {
+    bottom: 34% !important;
+}
+
+
+.allimage{
+	/* height: 80vh;
+	overflow: auto; */
+}
+
 @media (max-width: 991px) {
 	.admissionProcess .road-map-main .road-map-wrapper .road-map-card {
 		width: 100%;

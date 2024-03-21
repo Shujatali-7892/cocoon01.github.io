@@ -42,6 +42,9 @@
         height: 150px;
         margin-bottom:10px;
     }
+    .footer-widget .footer-social a { 
+        font-size: 40px !important; 
+    }
 
 }
 /* LG Device :992px. */

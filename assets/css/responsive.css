@@ -37,6 +37,12 @@
     }
 }
 @media (min-width: 992px) {
+    .index-div .carousel-caption {
+        bottom: 30% !important;
+      }
+    .div-Montessori .pagetitlearea {
+        /* height: 45vh; */
+    }
     .img-div {
         width: 300px;
         height: 150px;
@@ -251,6 +257,44 @@
  
 /* SM Device :320px. */
 @media (max-width: 767px) {
+    .index-1{
+        background-image: url('../img/slider/sm-slider.jpg');
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+        width: 100%;
+      }
+      .index-2{ 
+        height: 40vh; 
+      }
+      .index-3{ 
+        height: 40vh; 
+      }
+    .approach-area .nav-tabs .nav-link:focus,
+    .approach-area .nav-tabs .nav-link,
+     .approach-area .nav-tabs .nav-link:hover ,
+    .approach-area .nav-tabs .nav-link.active { 
+        font-size: 12px;
+        padding: 10px 10px; 
+    }
+    .thm-btn {
+         font-size: 12px;
+        padding: 15px 15px;
+    }
+    .staffmanagement  .page-title-area{
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+    .page-title-area{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .pagetitlearea{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
     .pagetitlearea {  
         background-size: contain; 
     }
@@ -449,9 +493,8 @@
         color: #fff;
         text-align: center;
     }
-    .index-div .carousel-caption .slide-title h1 {
-        color: white !important;
-        font-size: 18px;
+    .index-div .carousel-caption .slide-title h1 { 
+        font-size: 14px;
     }
     .index-div .carousel-caption  .slider-btn a {
         margin-right: 0px;

@@ -29,8 +29,9 @@
 
 /* 1. Theme default css */
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Roboto:wght@100;400;500;600;700&amp;display=swap");
-@import url("https://db.onlinewebfonts.com/c/0beac49d64f5a77f06214ad563160750?family=LillyBeta+Regular");
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+  @import url("../fonts/LillyBeta-Regular.css");  
+/* @import url("https://db.onlinewebfonts.com/c/0beac49d64f5a77f06214ad563160750?family=LillyBeta+Regular"); */
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Single+Day&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Single+Day&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Single+Day&display=swap');
@@ -39,9 +40,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Single+Day&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Grechen+Fuemen&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Maze&family=Single+Day&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Grechen+Fuemen&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Beastly&family=Rubik+Maze&family=Single+Day&display=swap');
-
-
-
+  
 @font-face {
   font-family:AmaticFont;
   src: url("../fonts/amatic/AmaticSC-Bold.ttf");
@@ -170,10 +169,7 @@ select {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   /* font-family: "Fredoka One", cursive; */
   font-family: "LillyBeta Regular";
   font-weight: normal;
@@ -181,6 +177,15 @@ h6 {
   margin-top: 0px;
   font-style: normal;
   font-weight: bold;
+}
+ 
+h4,
+h5,
+h6 {
+   
+  color: #00394f;
+  font-family: "Open Sans",  sans-serif;
+font-weight: 600;
 }
 
 h1 a,
@@ -7653,6 +7658,8 @@ abbr[title] {
 .Vision-div{
   box-shadow: 2px 7px 5px rgba(0,0,0,0.3),  0px -4px 10px rgba(255,255,255,0.3) ;
   padding: 20px 10px;
+  border-radius: 40px;
+
 }
 /* Pehla section ko hide karna */
 /* .mbutterfly {
@@ -7757,27 +7764,30 @@ abbr[title] {
 
 
       /* ---------------------------------- .spaces style here */
-      
+      .spaces {
+        box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3) inset, 0px -4px 10px rgba(255, 255, 255, 0.3)  ;
+      }
 
-/* .spaces .card {
-  border: none;
-  border-radius: 0; 
-  box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
-} */
+ 
 .spaces .card {
   border: none;
-  border-radius: 0;
+  /* border-radius: 12px; */
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
   box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
   transition: box-shadow 0.3s ease-in-out;
   background: #f5f5fc;
+  padding-top: 15px;
+  text-align: center;
   /* Add transition for smooth effect */
 }
 
 .spaces .card:hover {
-box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
-  /* Adjust the values as needed for the wave effect */
+  box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3) inset, 0px -4px 10px rgba(255, 255, 255, 0.3) inset;
 }
-
+.spaces .carousel-control-next-icon, .carousel-control-prev-icon  {
+   filter: invert(1) !important;
+}
 .spaces .carousel-inner {
   padding: 1em;
 }
@@ -7816,7 +7826,7 @@ box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.
 
 @media screen and (max-width: 576px) {
   .spaces .card:not(:first-child) {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -7825,29 +7835,20 @@ box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.
   box-shadow: 1px 7px 13px #c5c5cc;
   max-width: 100%;
   max-height: 100%;
-  border-radius: 12px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
-
-
-
-
-
-
-
+ 
 
 /* -----------------------------------------.space style ends here */
-
-
-
-
-
+ 
 .section-title .title0 {
   font-size: 36px;
   line-height: 1.2;
   margin-bottom: 20px;
   font-family: "LillyBeta Regular";
 }
- .section-title .title2 {
+ /* .section-title .title2 {
    font-size: 36px;
    line-height: 1.2;
    margin-bottom: 20px;
@@ -7910,4 +7911,194 @@ font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
   
+} */
+.my-space {
+
+  background-image: -moz-linear-gradient(0deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
+}
+ 
+
+.my-space #carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 9;
+  --middle: 5;
+  --position: 5;
+  pointer-events: none;
+  margin-bottom: 15px;
+}
+
+.my-space div.item {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  background-color: transparent;  
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 1s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+
+ 
+
+.my-space div.item .card{
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.my-space div.item .card .card-body{
+  padding: 5px 0 0 0;
+  
+}
+.my-space div.item .card img{
+  border-radius: 15px;
+
+}
+
+.input-div .item:nth-of-type(1) {
+  --offset: 1; 
+}
+.my-space  .item:nth-of-type(2) {
+  --offset: 2;
+ 
+}
+.my-space  .item:nth-of-type(3) {
+  --offset: 3;
+  
+}
+.my-space  .item:nth-of-type(4) {
+  --offset: 4;
+  
+}
+.my-space  .item:nth-of-type(5) {
+  --offset: 5; 
+}
+.my-space  .item:nth-of-type(6) {
+  --offset: 6;
+ 
+}
+.my-space  .item:nth-of-type(7) {
+  --offset: 7;
+  
+}
+.my-space  .item:nth-of-type(8) {
+  --offset: 8;
+  
+}
+.my-space  .item:nth-of-type(9) {
+  --offset: 9; 
+}
+
+.my-space input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.my-space input:nth-of-type(1):checked ~  #carousel {
+  --position: 1;
+}
+
+.my-space input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+.my-space input:nth-of-type(2):checked ~  #carousel {
+  --position: 2;
+}
+
+.my-space input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+.my-space input:nth-of-type(3):checked ~  #carousel {
+  --position: 3;
+}
+
+.my-space input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+.my-space input:nth-of-type(4):checked ~  #carousel {
+  --position: 4;
+}
+
+.my-space input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+.my-space input:nth-of-type(5):checked ~  #carousel {
+  --position: 5;
+}
+.my-space input:nth-of-type(6) {
+  grid-column: 7 / 8;
+  grid-row: 2 / 3;
+}
+.my-space input:nth-of-type(6):checked ~  #carousel {
+  --position: 6;
+}
+.my-space input:nth-of-type(7) {
+  grid-column: 8 / 9;
+  grid-row: 2 / 3;
+}
+.my-space input:nth-of-type(7):checked ~  #carousel {
+  --position: 7;
+}
+.my-space input:nth-of-type(8) {
+  grid-column: 9 / 10;
+  grid-row: 2 / 3;
+}
+.my-space input:nth-of-type(8):checked ~  #carousel {
+  --position: 8;
+}
+.my-space input:nth-of-type(9) {
+  grid-column: 10 / 11;
+  grid-row: 2 / 3;
+}
+.my-space input:nth-of-type(9):checked ~  #carousel {
+  --position: 9;
+}
+.my-space input {
+ 
+  width: 50px; /* Change the width */
+  height: 30px; /* Change the height */
+  margin-right: 10px; /* Change spacing */
+  background-image: linear-gradient(145deg, rgb(255, 79, 88) 0%, rgb(255, 180, 0) 100%);
+  box-shadow: 0px 4px 6px 0px rgba(255, 114, 58, 0.36);
+}
+@media screen and (max-width: 600px) {
+  .my-space #carousel {
+    height: 500px; /* Adjust height for mobile */
+    --items: 1; /* Display only one item on mobile */
+  }
+  .my-space input {
+ 
+    width: 15px; /* Change the width */
+    height: 15px; /* Change the height */
+    margin-right: 10px; /* Change spacing */
+    background-image: linear-gradient(145deg, rgb(255, 79, 88) 0%, rgb(255, 180, 0) 100%);
+    box-shadow: 0px 4px 6px 0px rgba(255, 114, 58, 0.36);
+  }
+}
+.texts-blue{
+  color: #000397f0 ;
+}
+.admissionProcess .section-title{
+  /* box-shadow: 0px 4px 6px 0px rgba(255, 114, 58, 0.36) ; */
+  
+  /* text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3); */
+  box-shadow:2px 7px 5px rgb(205 205 205 / 21%), 0px -4px 10px rgb(255 255 255 / 14%);
+  border-radius: 19px;
+  padding: 10px;
 }
